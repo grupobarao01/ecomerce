@@ -172,5 +172,7 @@ button {
 button:hover {
     opacity: 0.9;
 }
-
+.carousel-item{
+    max-width: 100%;
+}
 
