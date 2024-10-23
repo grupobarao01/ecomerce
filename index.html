@@ -9,23 +9,28 @@
 
 </head>
 <body>
-    <header>
-        
-        <input type="text" id="searchBar" placeholder="Pesquisar produtos...">
-            <div id="cart"> 
-                <div class="container">
-                    <div class="col-1">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="https://via.placeholder.com/250" alt="" width="30" height="24">
-                    </a>
-                <img id="cart-icon" src="https://img.lojadomecanico.com.br/img_site_novo/carrinho-topo.png" alt="Carrinho">
-            <span id="cart-count">0</span> Itens
-            <div id="cart-dropdown">
-                <ul id="cart-items"></ul>
-                <p id="cart-total">Total: R$ 0,00</p>
-                <button id="checkout-btn">Finalizar Compra</button>
+    <header> <nav class="navbar">
+
+        <div class="container">
+            <div class="col-1">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://via.placeholder.com/250" alt="" width="30" height="24">
+                </a>
+            </div>
+            <div class="col-11">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li>
+                        <a href="carrinho.html">Carrinho</a>
+                        <span id="quantidadeCarrinho">0</span>
+                    </li>
+                </ul>
             </div>
         </div>
+
+        
+        
         
         
     </header>
