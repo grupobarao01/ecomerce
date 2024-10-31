@@ -9,7 +9,7 @@ const estoqueProdutos = {
     3: 2,
     4: 6,
     5: 8,
-    6: 1
+    6: 1,
 };
 
 
