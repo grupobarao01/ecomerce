@@ -6,9 +6,8 @@ let total = carrinho.reduce((acc, item) => acc + item.preco * item.quantidade, 0
 const estoqueProdutos = {
     1: 100,
     2: 99,
-    3: 98
-    4: 6
-    ,
+    3: 98,
+    4: 6,
     5: 8,
     6: 1,
 };
