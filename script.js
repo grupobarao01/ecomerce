@@ -7,12 +7,56 @@ let total = carrinho.reduce(
 
 // Dados do estoque dos produtos
 const estoqueProdutos = {
-  1: 5, // Produto 1
-  2: 3, // Produto 2
-  3: 2, // Produto 3
-  4: 6,
-  5: 8,
-  6: 1,
+  1: 40, // Produto 1
+  2: 41, // Produto 2
+  3: 42, // Produto 3
+  4: 43,
+  5: 44,
+  6: 45,
+  7: 46, // Produto 1
+  8: 47, // Produto 2
+  9: 48, // Produto 3
+  10: 49,
+  11: 30,
+  12: 31,
+  13: 32, // Produto 1
+  14: 33, // Produto 2
+  15: 34, // Produto 3
+  16: 35,
+  17: 36,
+  18: 37,
+  19: 38, // Produto 1
+  20: 39, // Produto 2
+  21: 20, // Produto 3
+  22: 21,
+  23: 22,
+  24: 23,
+  25: 24, // Produto 1
+  26: 25, // Produto 2
+  27: 26, // Produto 3
+  28: 27,
+  29: 28,
+  30: 29,
+  31: 19, // Produto 1
+  32: 18, // Produto 2
+  33: 17, // Produto 3
+  34: 16,
+  35: 15,
+  36: 14,
+  37: 13, // Produto 1
+  38: 12, // Produto 2
+  39: 11, // Produto 3
+  40: 10,
+  41: 9,
+  42: 8,
+  43: 7, // Produto 1
+  44: 6, // Produto 2
+  45: 5, // Produto 3
+  46: 4,
+  47: 3,
+  48: 2,
+  49: 1,
+
 };
 
 // Função para salvar o carrinho no localStorage
