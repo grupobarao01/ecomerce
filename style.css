@@ -103,7 +103,7 @@ nav ul li a:hover {
 }
 
 .produto button {
-    background-color: #28a745;
+    background-color:black;
     color: white;
     padding: 10px;
     border: none;
@@ -113,7 +113,7 @@ nav ul li a:hover {
 }
 
 .produto button:hover {
-    background-color: #28a745;
+    background-color: green;
 }
 
 /* Barra de Pesquisa */
