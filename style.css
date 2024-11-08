@@ -181,6 +181,9 @@ button:hover {
       BUTTON THREE
 ========================
 */
+#botaoLogin{
+    display: inline-block;
+}
 .btn-three {
     color: #FFF;
     transition: all 0.5s;
