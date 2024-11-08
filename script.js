@@ -107,8 +107,6 @@ function atualizarEstoque(produtoId) {
   }
 }
 
-  }
-}
 
 // Função para filtrar os produtos na pesquisa
 function filtrarProdutos() {
