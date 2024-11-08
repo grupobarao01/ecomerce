@@ -196,11 +196,14 @@ function finalizarCompra() {
 }
 
 const btnPix = document.getElementById('pix');
+const btnCredito = document.getElementById('Credito');
+const btnBoleto = document.getElementById('Boletos');
+
+// Atribuindo o evento de click para cada botão
 btnPix.addEventListener('click', formaPagamento);
-const btnCredito = document.getElementById('credito');
-btnPix.addEventListener('click', formaPagamento);
-const btnBoleto = document.getElementById('boleto');
-btnPix.addEventListener('click', formaPagamento);
+btnCredito.addEventListener('click', formaPagamento);
+btnBoleto.addEventListener('click', formaPagamento);
+
 
 function formaPagamento() {
   const modal = bootstrap.Modal.getInstance(
