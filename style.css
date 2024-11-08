@@ -181,7 +181,7 @@ button:hover {
       BUTTON THREE
 ========================
 */
-#botaoLogin{
+.box-3{
     display: inline-block;
 }
 .btn-three {
