@@ -78,13 +78,21 @@
                         </button> -->
 
                         <!-- Hover #3 -->
-<div class="box-3">
-    <div id="botaoLogin" data-bs-toggle="modal" data-bs-target="#loginModal" class="btn btn-three">
-      <span>Login</span>
-    </div>
-  </div>
-                        
-                        <button type="button" class="btn btn-danger" id="botaoSair" aria-label="Sair" onclick="sair()">Sair</button>
+                        <div class="box-3">
+                            <div id="botaoLogin" data-bs-toggle="modal" data-bs-target="#loginModal"
+                                class="btn btn-three">
+                                <span>Login</span>
+                            </div>
+                        </div>
+
+                        <div class="box-3">
+                            <div id="botaoSair" aria-label="Sair" onclick="sair()" class="btn btn-three">
+                                <span>Sair</span>
+                            </div>
+                        </div>
+
+                        <!-- <button type="button" class="btn btn-danger" id="botaoSair" aria-label="Sair"
+                            onclick="sair()">Sair</button> -->
                     </li>
 
                 </ul>
@@ -93,8 +101,8 @@
 
     </nav>
 
-     <!-- Modal de Login -->
-     <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <!-- Modal de Login -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -105,11 +113,13 @@
                     <form id="loginForm">
                         <div class="mb-3">
                             <label for="username" class="form-label">Nome de Usuário</label>
-                            <input type="text" class="form-control" id="username" placeholder="Digite seu usuário" required>
+                            <input type="text" class="form-control" id="username" placeholder="Digite seu usuário"
+                                required>
                         </div>
                         <div class="mb-3">
                             <label for="password" class="form-label">Senha</label>
-                            <input type="password" class="form-control" id="password" placeholder="Digite sua senha" required>
+                            <input type="password" class="form-control" id="password" placeholder="Digite sua senha"
+                                required>
                         </div>
                         <button type="submit" class="btn btn-primary w-100">Entrar</button>
                     </form>
@@ -117,27 +127,28 @@
             </div>
         </div>
     </div>
-    
-   
+
+
 
     <!-- Conteúdo do Carrinho -->
     <div id="carrinho">
         <h1>Carrinho de Compras</h1>
         <ul id="listaCarrinho"></ul>
         <p id="total">Total: R$ 0.00</p>
-        <button id="finalizarCompra" class="btn btn-success" onclick="finalizarCompra()" style="display: none;">Finalizar Compra</button>
+        <button id="finalizarCompra" class="btn btn-success" onclick="finalizarCompra()"
+            style="display: none;">Finalizar Compra</button>
         <button class="btn btn-danger" onclick="removerTodosItens()">Remover Todos</button>
     </div>
 
     <div class="card text-center bottom-0 start-50 translate-middle-x w-100">
         <div class="card-header">
-          Featured
+            Featured
         </div>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         </div>
-      </div>
+    </div>
 
 
 
