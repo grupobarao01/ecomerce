@@ -89,16 +89,24 @@ function adicionarAoCarrinho(nomeProduto, preco, produtoId) {
 
 // Função para atualizar a exibição do estoque e desativar botão se o estoque acabar
 function atualizarEstoque(produtoId) {
-  const estoqueElemento = document.getElementById(
-    `estoque-produto-${produtoId}`,
-  );
+  const estoqueElemento = document.getElementById(`estoque-produto-${produtoId}`);
   const botaoElemento = document.getElementById(`btn-produto-${produtoId}`);
 
-  estoqueElemento.textContent = `Estoque: ${estoqueProdutos[produtoId]}`;
-  console.log(estoqueElemento);
-  if (estoqueProdutos[produtoId] === 0) {
-    botaoElemento.disabled = true;
-    botaoElemento.textContent = 'Esgotado';
+  if (estoqueElemento) {
+    estoqueElemento.textContent = `Estoque: ${estoqueProdutos[produtoId]}`;
+  }
+
+  if (botaoElemento) {
+    if (estoqueProdutos[produtoId] === 0) {
+      botaoElemento.disabled = true;
+      botaoElemento.textContent = 'Esgotado';
+    } else {
+      botaoElemento.disabled = false;
+      botaoElemento.textContent = 'Adicionar ao Carrinho';
+    }
+  }
+}
+
   }
 }
 
