@@ -108,6 +108,7 @@ function atualizarEstoque(produtoId) {
 }
 
 
+
 // Função para filtrar os produtos na pesquisa
 function filtrarProdutos() {
   const input = document.getElementById('searchInput').value.toLowerCase();
