@@ -7,36 +7,36 @@ let total = carrinho.reduce(
 
 // Dados do estoque dos produtos
 const estoqueProdutos = {
-  1: 40, // Produto 1
-  2: 41, // Produto 2
-  3: 42, // Produto 3
-  4: 43,
-  5: 44,
-  6: 45,
-  7: 46, // Produto 1
-  8: 47, // Produto 2
-  9: 48, // Produto 3
-  10: 49,
-  11: 30,
-  12: 31,
-  13: 32, // Produto 1
-  14: 33, // Produto 2
-  15: 34, // Produto 3
-  16: 35,
-  17: 36,
-  18: 37,
-  19: 38, // Produto 1
-  20: 39, // Produto 2
-  21: 20, // Produto 3
-  22: 21,
-  23: 22,
-  24: 23,
-  25: 24, // Produto 1
-  26: 25, // Produto 2
-  27: 26, // Produto 3
-  28: 27,
-  29: 28,
-  30: 29,
+  1: 49, 
+  2: 48, 
+  3: 47, 
+  4: 46,
+  5: 45,
+  6: 44,
+  7: 43, 
+  8: 42, // Produto 2
+  9: 41, // Produto 3
+  10: 40,
+  11: 39,
+  12: 38,
+  13: 37, // Produto 1
+  14: 36, // Produto 2
+  15: 35, // Produto 3
+  16: 34,
+  17: 33,
+  18: 32,
+  19: 31, // Produto 1
+  20: 30, // Produto 2
+  21: 29, // Produto 3
+  22: 28,
+  23: 27,
+  24: 26,
+  25: 25, // Produto 1
+  26: 24, // Produto 2
+  27: 23, // Produto 3
+  28: 22,
+  29: 21,
+  30: 20,
   31: 19, // Produto 1
   32: 18, // Produto 2
   33: 17, // Produto 3
