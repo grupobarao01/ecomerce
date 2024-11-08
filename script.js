@@ -200,8 +200,7 @@ function finalizarCompra() {
 function formaPagamento() {
   const modal = bootstrap.Modal.getInstance(
     document.getElementById('ExemploModalCentralizado'),
-  
-    const btnPix = document.getElementById('pix');
+   const btnPix = document.getElementById('pix');
     const btnCredito = document.getElementById('Credito');
     const btnBoleto = document.getElementById('Boletos');
     
@@ -209,7 +208,7 @@ function formaPagamento() {
     btnPix.addEventListener('click', formaPagamento);
     btnCredito.addEventListener('click', formaPagamento);
     btnBoleto.addEventListener('click', formaPagamento);
-    );
+  );
   if (modal) {
     modal.hide(); // Fecha o modal
     alert('Compra Finalizada');
