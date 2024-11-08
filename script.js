@@ -196,20 +196,20 @@ function finalizarCompra() {
   atualizarCarrinho();
 }
 
-const btnPix = document.getElementById('pix');
-const btnCredito = document.getElementById('Credito');
-const btnBoleto = document.getElementById('Boletos');
-
-// Atribuindo o evento de click para cada botão
-btnPix.addEventListener('click', formaPagamento);
-btnCredito.addEventListener('click', formaPagamento);
-btnBoleto.addEventListener('click', formaPagamento);
-
 
 function formaPagamento() {
   const modal = bootstrap.Modal.getInstance(
     document.getElementById('ExemploModalCentralizado'),
-  );
+  
+    const btnPix = document.getElementById('pix');
+    const btnCredito = document.getElementById('Credito');
+    const btnBoleto = document.getElementById('Boletos');
+    
+    // Atribuindo o evento de click para cada botão
+    btnPix.addEventListener('click', formaPagamento);
+    btnCredito.addEventListener('click', formaPagamento);
+    btnBoleto.addEventListener('click', formaPagamento);
+    );
   if (modal) {
     modal.hide(); // Fecha o modal
     alert('Compra Finalizada');
