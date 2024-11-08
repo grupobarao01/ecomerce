@@ -181,6 +181,10 @@ button:hover {
       BUTTON THREE
 ========================
 */
+.box-3{
+    display: inline-block;
+}
+
 .btn-three {
     color: #FFF;
     transition: all 0.5s;
