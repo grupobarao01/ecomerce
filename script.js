@@ -7,55 +7,17 @@ let total = carrinho.reduce(
 
 // Dados do estoque dos produtos
 const estoqueProdutos = {
-  1: 49,
-  2: 48, 
-  3: 47, 
-  4: 46,
-  5: 45,
-  6: 44,
-  7: 43, 
-  8: 42, 
-  9: 41, 
-  10: 40,
-  11: 39,
-  12: 38,
-  13: 37, 
-  14: 36, 
-  15: 35, 
-  16: 34,
-  17: 33,
-  18: 32,
-  19: 31, 
-  20: 30, 
-  21: 29, 
-  22: 28,
-  23: 27,
-  24: 26,
-  25: 25, 
-  26: 24, 
-  27: 23, 
-  28: 22,
-  29: 21,
-  30: 20,
-  31: 19, 
-  32: 18, 
-  33: 17, 
-  34: 16,
-  35: 15,
-  36: 14,
-  37: 13, 
-  38: 12, 
-  39: 11, 
-  40: 10,
-  41: 9,
-  42: 8,
-  43: 7, 
-  44: 6, 
-  45: 5, 
-  46: 4,
-  47: 3,
-  48: 2,
-  49: 1,
+  0:10
+  1: 9,
+  2: 8, 
+  3: 7, 
+  4: 6,
+  5: 5,
+  6: 4,
+  7: 3, 
+  8: 2, 
+  9: 1, 
+  10:0
 
 };
 
@@ -92,20 +54,16 @@ function atualizarEstoque(produtoId) {
   const estoqueElemento = document.getElementById(`estoque-produto-${produtoId}`);
   const botaoElemento = document.getElementById(`btn-produto-${produtoId}`);
 
-  if (estoqueElemento) {
-    estoqueElemento.textContent = `Estoque: ${estoqueProdutos[produtoId]}`;
-  }
-
-  if (botaoElemento) {
-    if (estoqueProdutos[produtoId] === 0) {
+  estoqueElemento.textContent = `Estoque: ${estoqueProdutos[produtoId]}`;
+  if (estoqueProdutos[produtoId] === 0) {
       botaoElemento.disabled = true;
-      botaoElemento.textContent = 'Esgotado';
-    } else {
+      botaoElemento.textContent = "Esgotado";
+  }
+} else {
       botaoElemento.disabled = false;
       botaoElemento.textContent = 'Adicionar ao Carrinho';
     }
-  }
-}
+
 
 
 
