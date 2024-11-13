@@ -7,17 +7,16 @@ let total = carrinho.reduce(
 
 // Dados do estoque dos produtos
 const estoqueProdutos = {
-  0:10
-  1: 9,
-  2: 8, 
-  3: 7, 
-  4: 6,
-  5: 5,
-  6: 4,
-  7: 3, 
-  8: 2, 
-  9: 1, 
-  10:0
+  1: 10,
+  2: 9, 
+  3: 8, 
+  4: 7,
+  5: 6,
+  6: 5,
+  7: 4, 
+  8: 3, 
+  9: 2, 
+  10:1,
 
 };
 
