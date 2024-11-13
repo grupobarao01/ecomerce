@@ -58,7 +58,7 @@ function atualizarEstoque(produtoId) {
       botaoElemento.disabled = true;
       botaoElemento.textContent = "Esgotado";
   }
-} else {
+} else{
       botaoElemento.disabled = false;
       botaoElemento.textContent = 'Adicionar ao Carrinho';
     }
