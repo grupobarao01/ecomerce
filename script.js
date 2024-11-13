@@ -165,7 +165,6 @@ function formaPagamento() {
     btnPix.addEventListener('click', formaPagamento);
     btnCredito.addEventListener('click', formaPagamento);
     btnBoleto.addEventListener('click', formaPagamento);
-  );
   if (modal) {
     modal.hide(); // Fecha o modal
     alert('Compra Finalizada');
